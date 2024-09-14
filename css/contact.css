@@ -1,0 +1,40 @@
+.contact {
+  min-height: 50vh;
+  margin: auto;
+  max-width: 1000px;
+  padding-top: 100px;
+  text-align: center; /* Centrar el contenido */
+}
+
+.contact-title {
+  font-family: "NTR", sans-serif;
+  font-style: normal;
+  color: #d2c3ff;
+  font-size: 80px;
+}
+
+.contact-description {
+  font-family: "NTR", sans-serif;
+  font-size: 18px;
+  color: #d2c3ff;
+  margin-bottom: 30px;
+  text-align: center;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contenedor_imagen {
+  display: inline-block; 
+  margin: 0 15px; 
+}
+
+.imagen_red {
+  width: 100px; 
+  height: auto; 
+}
+
+.imagen_red:hover {
+  transform: scale(1.02);
+  transition: ease-in 0.2s;
+}
